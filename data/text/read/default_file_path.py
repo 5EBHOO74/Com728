@@ -1,0 +1,6 @@
+file_path = input("Enter a file path: ") or "quotes.txt"
+try:
+    with open(file_path) as file:
+        print(file.readlines())
+except IOError:
+    print("Cannot read file.")
