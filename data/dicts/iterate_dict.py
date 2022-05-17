@@ -20,7 +20,7 @@ def display_values(data):
 def display_pairs(data):
     print("Pairs:")
     for key, value in data:
-        print(f"{key}: {value}")
+        print(f"{key}: \n{value}")
     print()
 
 
